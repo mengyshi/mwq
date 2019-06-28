@@ -1,0 +1,83 @@
+
+.gw img{
+	width: 80px;height: 80px;
+}
+.gw{
+	width: 100%;
+	
+	background: #ccc;
+}
+.gwtitle{
+	width: 1200px;height: 80px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.gwtitle>div{
+	text-align: center;
+	line-height: 80px;
+	
+}
+.gwtitle>div:nth-child(1){
+	width: 100px;
+}
+.gwtitle>div:nth-child(2) img{
+	width: 80px;height: 80px;
+}
+.gwtitle>div:nth-child(3){
+	width: 320px;
+}
+.gwtitle>div:nth-child(4){
+	width: 100px;
+}
+.gwtitle>div:nth-child(5){
+	width: 400px;
+}
+.gwtitle>div:nth-child(6){
+	width: 100px;
+}
+.gwtitle>div:nth-child(7){
+	width: 100px;
+}
+
+.gwfoot{
+	width: 1200px;height: 70px;
+	background: #fff;
+	margin: 10px auto;
+	
+}
+.gwfoot>div{
+	text-align: center;
+	line-height: 70px;
+}
+.gwfoot>div:first-child{
+	width: 300px;
+}
+.gwfoot>div:nth-child(2){
+	width: 600px;
+}
+.gwfoot>div:last-child{
+	width: 300px;
+	background: #f00;
+	font-size: 22px;
+}
+
+.gwshangpin{
+	overflow: auto;
+}
+.gwshangpin>div{
+	width: 1200px;height: 80px;
+	margin: auto;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+.gwshangpin>.gwtitle>div:nth-child(2){
+	width: 80px;height: 80px;
+}
+.gwshangpin>.gwtitle>div:nth-child(5) input{
+	width: 40px;height: 40px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+}

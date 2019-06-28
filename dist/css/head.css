@@ -1,0 +1,190 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,a{margin: 0;padding: 0;}
+li,input{list-style: none;}
+
+a{text-decoration: none;color: #000;display: inline-block;}
+img{display: block;}
+
+.redhover:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+/*所有鼠标经过，变为红色字体，并且加下划线，均添加class 为 redhover*/
+.red{
+	color: red;
+}
+.white{
+	color: white;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.none{
+	display: none;
+}
+
+.redbj:hover{
+	background: #f00;
+	color: #fff;
+}
+
+.headtop{
+	width: 100%;
+	background: #bbb;
+}
+.headtopm{
+	width: 1200px;height: 26px;
+	margin: auto;
+	line-height: 26px;
+	font-size: 14px;
+}
+.headtopmr>ul>li ul{
+	display: none;
+	background: #fff;
+}
+.headtopmr>ul{
+	float: right;
+}
+.headtopmr>ul>li{
+	float: left;
+	padding: 0 5px;
+}
+
+.headimg{
+	width: 100%;height: 90px;
+	background: url(http://img08.jiuxian.com/bill/2019/0623/5e586836ec1d436da0483df6ce71cb9a.jpg) no-repeat top center scroll;
+}
+
+.headmain{
+	width: 100%;
+}
+.headmainm{
+	width: 1200px;height: 125px;
+	margin: 0 auto;
+	position: relative;
+}
+.headmainm>div{
+	padding-top: 30px;
+}
+.headinput{
+	width: 530px;height: 38px;
+	border: 3px solid #f00;
+}
+.headinput input{
+	border: none;
+}
+.headinput input:first-child{
+	width: 459px;height: 36px;
+}
+.headinput input:last-child{
+	width: 66px;height: 38px;
+	background: #f00;
+}
+.headinput~p{
+	font-size: 12px;
+	color: #ccc;
+	padding-top: 5px;
+}
+.headinput~p a{
+	padding: 0 8px;
+}
+.headinput~p a:first-child{
+	padding: 0;
+}
+.headmainm .right{
+	width: 363px;height: 64px;
+	url() no-repeat top left
+}
+.headnav{
+	width: 100%;
+	background: #900;
+	text-align: center;
+	line-height: 34px;
+}
+.headnavm{
+	width: 1200px;height: 34px;
+	margin: 0 auto;
+}
+.headnavm>div{
+	background: #ce171f;
+	width: 190px;
+	position: relative;
+}
+.headnavm>div>ul{
+	width: 190px;
+	position: absolute;
+	z-index: 10;
+	top: 35px;left: 0px;
+	background: #fff;
+	color: #000;
+}
+/*此处为多级列表*/
+.headnavm>ul li{
+	padding: 0 22px;
+}
+.headnavm>ul li:hover{
+	background-color: #b40c10;
+}
+
+.youce{
+	width: 35px;height: 100%;
+	position: fixed;
+	right: 0px;top: 0px;
+	z-index: 999;
+	background: #ccc;
+	text-align: center;
+}
+.youce>div:first-child{
+	margin-top: 150px;
+}
+.youce>div:last-child{
+	margin-top: 200px;
+}
+.youce>div{
+	margin: 20px 0;
+}
+.youce>div:first-child>div{
+	position: fixed;
+	background: #ccc;
+	width: 270px;height: 300px;
+	top: 150px;right: 35px;
+}
+.youce>div:nth-child(2)>div{
+	position: fixed;
+	background: #ccc;
+	width: 270px;height: 300px;
+	top: 200px;right: 35px;
+}
+.youce>div:nth-child(3)>div{
+	/*此处为购物车页面，等写完购物车再加样式*/
+	width: 350px;height: 100%;
+	
+	position: fixed;
+	top: 0px;right: 35px;
+}
+
+.youce>div:nth-child(1):hover>div{
+	display: initial;
+}
+.youce>div:nth-child(2):hover>div{
+	display: initial;
+}
+.youce>div:nth-child(3):hover>div{
+	display: ;
+}
+
+
+
+
+
+.foot1{
+	width: 100%;height: 289px;
+	background: #333;
+}
+
+.foot2{
+	width: 100%;height: 279px;
+	background: #f9f9f9;
+}

@@ -1,0 +1,420 @@
+
+.none{
+	display: none;
+}
+
+.bigtop .lunbo{
+	display: initial;
+	width: 100%;height: 470px;
+}
+
+
+.bigtop{
+	width: 100%;
+	position: relative;
+}
+.bigtop ul{
+	width: 100%;height: 470px;
+	
+}
+.bigtop ul li{
+	display: none;
+}
+.bigtop ul li div{
+	height: 470px;
+	
+}
+.bigtop ul li a:nth-of-type(1) img{
+	position: absolute;
+	top: 0px;right: 120px;
+}
+.bigtop ul li a:nth-of-type(2) img{
+	position: absolute;
+	top: 157px;right: 120px;
+}
+.bigtop ul li a:nth-of-type(3) img{
+	position: absolute;
+	top: 314px;right: 120px;
+}
+.bigtop>p{
+	position: absolute;
+	top: 438px;
+	left: 686px;
+}
+.bigtop>p span{
+	width: 22px;height: 22px;
+	display: block;
+	background-color: #000;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 22px;
+	float: left;
+	margin: 0 2px;
+}
+
+
+.qianggou{
+	width: 100%;height: 4536px;
+	background-color: #f9f9f9;
+}
+.qianggoum{
+	width: 1200px;height: 500px;
+	margin: 0 auto;
+	background: #fff;
+	position: relative;
+}
+.qianggoum>div:first-child{
+	width: 925px;
+}
+.qianggoum>div:first-child>ul{
+	width: 925px;
+	padding-top: 10px;
+}
+.qianggoum>div:first-child>ul>li{
+	width: 183px;height: 35px;
+	text-align: center;
+	line-height: 35px;	
+	background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+}
+.qianggoum>div:first-child>ul>li:hover{
+	background-color: #fff;
+	border-bottom: 0;
+	border-top: 2px solid #f00;
+}
+.ulone{
+	width: 910px;height: 432px;
+	font-size: 12px;
+}
+.ulone li{
+	margin-top: 10px;
+	width: 182px;height: 196px;
+	text-align: center;
+}
+.ulone li p{
+	width: 150px;
+	overflow: hidden;
+	
+	white-space: nowrap;
+}
+.ulone li img{
+	width: 160px;height: 160px;
+	padding: 11px;
+}
+
+.cuxiao{
+	height: 140px;width: 270px;
+	position: absolute;
+	top: 10px;right: 0px;
+	background: #fff;
+}
+.cuxiao span{
+	display: block;
+	width: 133px;
+	text-align: center;
+	line-height: 35px;	
+	background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+}
+.cuxiao span:hover{
+	background-color: #fff;
+	border-bottom: 0;
+	border-top: 2px solid #f00;
+}
+.cuxiao>div ul li{
+	width: 114px;height: 30px;
+	line-height: 35px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 10px;
+	text-overflow: ellipsis;
+}
+.lunbo2{
+	width: 268px;height: 157px;
+	position: absolute;
+	top: 160px;right: 0px;
+	overflow: hidden;
+}
+/*.lunbo2 span{
+	width: 20px;height: 20px;
+	display: block;
+	background: #f00;
+	float: left;
+	border-radius: 50%;
+}*/
+.lunbo22{
+	top: 327px;
+}
+
+.guanggao{
+	width: 1200px;height: 130px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.guanggao a{
+	margin-left: 90px;
+}
+
+.youhui{
+	width: 1200px;height: 299px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.biaoti{
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+.biaoti .right span{
+	width: 10px;height: 10px;
+	background: #ccc;
+	display: block;
+	margin: 20px 10px 0 10px;
+}
+
+/*点击  切换图片*/
+.qietu{
+	width: 1200px;height: 257px;
+	font-size: 14px;
+	background-color: #fff;
+	line-height: 18px;
+	padding-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.qietu>div{
+	height: 257px;
+	position: absolute;
+}
+.qietu>div img{
+	width: 160px;height: 160px;
+}
+#left1{
+	top: 0px;left: 0px;
+}
+#left2{
+	top: 0px;left: 1200px;
+}
+.qietu>div>div{
+	margin: 20px 5px;
+}
+.qietu p{
+	width: 190px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.qietu div span{
+	font-size: 18px;
+	margin: 4px;
+}
+.qietu>span{
+	position: absolute;
+	font-size: 75px;
+	z-index: 20;
+	top: 120px;
+}
+.qietu>span:nth-of-type(1){
+	left: 0px;
+}
+.qietu>span:nth-of-type(2){
+	right: 0px;
+}
+
+
+/*以下楼梯效果*/
+#floorNav{
+	display: none;
+	position: fixed;
+	top: 300px;
+	left: 20px;
+	width: 32px;
+	z-index: 30;
+}
+#floorNav li {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #CECECE;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 32px;
+	font-size: 12px;
+}
+
+#floorNav span {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 32px;
+	width: 64px;
+	height: 32px;
+	background: red;
+	color: white;
+	border: 1px solid #CECECE;
+	border-radius: 16px;
+}
+#floorNav li:hover span,#floorNav li.hover span{
+	display: block;
+}
+
+#floorNav li:last-child{
+	background: red;
+	color: white;
+	border-bottom: none;
+}
+#content{
+	position: relative;
+	margin: auto;
+}
+#content>div{
+	width: 1200px;height: 691px;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.biaotibox{
+	height: 40px;
+	padding: 0 3px;
+	line-height: 40px;
+	margin-top: 10px;
+	border-bottom: 2px solid #f00;
+}
+.biaotibox ul li a{
+	padding: 0 7px;
+	color: #999;
+	font-size: 14px;
+}
+.biaotibox ul li:last-child a{
+	color: #fff;
+	line-height: 16px;
+	border-radius: 5px;
+	background: #f00;
+}
+.mainbox{
+	width: 1200px;
+	height: 485px;
+	position: relative;
+}
+.mainbox .lunbo2{
+	width: 210px;height: 485px;
+	left: 0px;top: 0px;
+}
+.mainbox ul{
+	width: 990px;
+}
+.mainbox ul li{
+	width: 196px;height: 242px;
+	border: 1px solid #999;
+	font-size: 14px;
+	text-align: center;
+	border-top: 0;
+	border-left: 0;
+	background: #fff;
+}
+.mainbox ul li img{
+	margin: 5px auto;
+}
+.mainbox ul li p{
+	height: 38px;
+	line-height: 19px;
+	overflow: hidden;
+}
+
+.hotbox>.left{
+	width: 186px;height: 131px;
+	padding: 20px 10px 10px 14px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	border-top: 0;
+}
+.hotbox .left span{
+	line-height: 30px;
+}
+.hotbox>.right{
+	width: 985px;height: 162px;
+	border: 1px solid #999;
+	border-top: 0;
+	border-left: 0;
+}
+
+.hotbiaoti>ul{
+	width: 286px;height: 30px;
+	font-size: 14px;
+	color: #ccc;
+}
+.hotbiaoti>ul span{
+	padding: 0 10px;
+}
+.touteng{
+	width: 985px;height: 127px;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+.tuijian{
+	width: 100%;height: 400px;
+	background: #F9F9F9;
+}
+.tuijianm{
+	width: 1200px;height: 349px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.guanfang{
+	height: 43px;
+	background: #F9F9F9;
+	font-size: 20px;
+	line-height: 41px;
+}
+.redbottom{
+	padding: 0 10px;
+}
+.redbottom:hover{
+	color: #f00;
+	border-bottom: 2px solid #f00;
+}
+.tuijianm .img{
+	width: 1200px;height: 306px;
+	padding: 15px;
+}
+.img div{
+	width: 180px;height: 80px;
+	overflow: hidden;
+	margin: 0 17px 17px 0;
+}
+.img div img{
+	transition: all 0.3s linear;
+}
+.img div:hover img{
+	margin-left: -100px;
+}
+
+/*.ingpin{
+	width: ;height: ;
+	background: #fff;
+}*/
+
+#shuju{
+	width: auto;height: auto;
+	position: relative;
+	margin-top: -35px;
+}
+#shuju li{
+	width: 190px;
+	
+	background-color: #fff;
+}
+
+#shuju li ul{
+	display: none;
+	position: absolute;
+	top: 0px;left: 190px;
+}
+#shuju li:hover ul{
+	display: initial;
+}

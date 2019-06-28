@@ -1,0 +1,133 @@
+
+
+
+.xiangqing{
+	width: 100%;
+	background: #f9f9f9;
+}
+.xiangqingm{
+	width: 1200px;height: 610px;
+	
+	margin: 10px auto;
+	
+	
+}
+.xqtitle{
+	width: auto;height: 40px;
+	font-size: 14px;
+	color: #ccc;
+	line-height: 40px;
+}
+.xqmain{
+	border: 1px solid #ccc;
+	background: #fff;
+	width: 1200px;height: 570px;
+	position: relative;
+}
+
+.xqimg{
+	width: 420px;height: 420px;
+	position: relative;
+	
+	border: 1px solid #f00;
+	
+}
+/*以下为放大镜特效css*/
+.small{
+	width: 140px;height: 140px;
+	background: yellow;
+	opacity: .3;
+	cursor: move;
+	position: absolute;
+	top: 0px;left: 0px;
+}
+.big{
+	width: 420px;height: 420px;
+	border: 1px solid #f00;
+	position: absolute;
+	top: 0px;left: 423px;
+	z-index: 999;
+	overflow: hidden;
+}
+.big img{
+	width: 1260px;height: 1260px;
+}
+
+/*以上为放大镜特效css*/
+.xqimg img{
+	width: 420px;height: 420px;
+}
+.xqh4{
+	width: 528px;height: 40px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 10px;left: 422px;
+	padding: 10px;
+}
+.xqdiv1{
+	width: 528px;height: 135px;
+	padding: 10px;
+	position: absolute;
+	top: 70px;left: 422px;
+	background: #ccc;
+}
+.xqdiv1 p{
+	margin: 10px;
+}
+.xqdiv2{
+	width: 536px;height: 320px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 234px;left: 432px;
+}
+.xqdiv2 p{
+	margin: 35px;
+}
+.xqdiv2>input{
+	width: 300px;height: 50px;
+	background: #f00;
+	margin-left: 50px;
+}
+.xqdiv2>div{
+	width: 30px;height: 320px;
+	background: #ccc;
+	text-align: center;
+	line-height: 80px;
+}
+.xqdiv3{
+	width: 410px;height: 120px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 434px;left: 7px;
+}
+.xqdiv3 img{
+	width: 75px;height: 120px;
+	overflow: hidden;
+	margin: 0 10px;
+}
+.xqdiv4{
+	width: 200px;height: 200px;
+	border: 1px solid #f00;
+	position: absolute;
+	top: 10px;right: 10px;
+	overflow: hidden;
+}
+.xqdiv4 img{
+	width: 200px;
+	height: 100px;
+}
+.xqdiv5{
+	width: 90px;height: 40px;
+	position: absolute;
+	top: 250px;right: 65px;
+	background: #f00;
+	text-align: center;
+	line-height: 40px;
+	transition: all 0.3s linear;
+}
+.xqdiv5:hover{
+	top: 350px;
+}
+
+
+

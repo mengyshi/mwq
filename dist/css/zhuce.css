@@ -1,0 +1,61 @@
+
+			
+.zhuce {
+	width: 994px;
+	height: 500px;
+	border: 3px solid #ccc;
+	margin: 0px auto;
+	background: #fff;
+}
+.zhuce ul{
+	width: 700px;
+	margin: 40px auto;
+}
+.zhuce ul li{
+	width: 700px;height: 42px;
+	margin: 20px 0;
+	line-height: 42px;
+}
+.zhuce ul li>span{
+	float: left;
+	display: block;
+}
+.zhuce ul li>span:first-child{
+	width: 250px;
+	text-align: right;
+}
+.zhuce ul li>span:last-child{
+	margin-left: 10px;
+	width: 320px;
+	border: 1px solid #ccc;
+}
+.zhuce ul li>span:last-child span:first-of-type{
+	width: 38px;height: 38px;
+	font-size: 24px;
+}
+.zhuce ul li input{
+	width: 280px;height: 40px;
+	border: 0;
+}
+.zhuce ul li:nth-child(2) input{
+	width: 160px;
+	
+}
+.zhuce ul li:nth-child(2) span:last-child{
+	border-left: 1px solid #ccc;
+	
+}
+.xieyi p{
+	margin: 10px auto;
+	text-align: center;
+}
+.xieyi p:last-child input{
+	width: 300px;height: 40px;
+	background: #f00;
+}
+
+#yanzheng31{
+	text-align: center;
+}
+
+

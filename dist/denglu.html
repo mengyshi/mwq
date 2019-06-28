@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>酒仙网登录</title>
+	<link rel="stylesheet" href="font_rivfu8xzozo/iconfont.css" />
+	<link rel="stylesheet" href="css/denglu.css" />
+	
+</head>
+<body>
+	<div class="head">
+		<div class="header">
+			<div class="headerl">
+				<span>
+					<a href="#">
+						<img src="img/logo.jpg" />
+					</a>
+				</span>
+				<span>
+					<a href="#">
+						<img src="img/logo2.jpg" />
+					</a>
+				</span>
+			</div>
+			<div class="headerr">
+				<span>欢迎来到酒仙网</span>
+				<span><a href="zhuce.html">免费注册</a></span>
+				<span>帮助中心</span>
+			</div>
+		</div>
+	</div>
+	<!--登录头部-->
+	<div class="main">
+		<div class="mainer">
+			<div class="denglu">
+				<div class="denglutitle">
+					<span class="zhanghao1 red">账号登录</span>
+					|
+					<span class="zhanghao1">手机动态密码登录</span>
+				</div>
+				<div class="denglum">
+					<ul>
+						<li>
+							<span class="left iconfont icon-gerenzhongxin"></span>
+							<input class="left" type="text" id="txt11" placeholder="用户名/手机/邮箱" />
+						</li>
+						<li>
+							<span class="left iconfont icon-mima"></span>
+							<input class="left" type="password" id="txt12" placeholder="密码"/>
+						</li>
+						<li>
+							<span class="left iconfont icon-securityCode-b"></span>
+							<input class="left" type="text" id="txt13" placeholder="验证码"/>
+							<div class="right" id="yanzheng1">点击获取验证码</div>
+						</li>
+						<li>
+							<input type="submit" id="dengbtn" value="登&nbsp;录"/>
+						</li>
+					</ul>
+					<ul class="none">
+						<li>
+							<span class="left iconfont icon-gerenzhongxin"></span>
+							<input class="left" type="text" placeholder="手机号" />
+						</li>
+						<li>
+							<span class="left iconfont icon-mima"></span>
+							<input class="left" type="text" placeholder="验证码"/>
+							<div class="right" id="yanzheng21">获取手机验证码</div>
+						</li>
+						<li>
+							<span class="left iconfont icon-shouji"></span>
+							<input class="left" type="text" placeholder="验证码"/>
+							<div class="right" id="yanzheng22">点击获取验证码</div>
+						</li>
+						<li>
+							<input type="submit" value="登&nbsp;录"/>
+						</li>
+					</ul>
+				</div>
+				
+				<div style="width: 350px; height: 30px;">
+					<a href="zhuce.html" class="redhover right">&nbsp;免费注册&nbsp;</a>
+					
+					<a href="#" class="redhover right">&nbsp;忘记密码&nbsp;</a>
+				</div>
+				<div>
+					<span>使用合作用户登录</span>
+					<span class="iconfont icon-qq-copy-copy"></span>
+					<span class="iconfont icon-logo-weibo"></span>
+					<span class="iconfont icon-zhifubao"></span>
+					<span class="iconfont icon-baidu1"></span>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!--登录中间表单-->
+	<div class="foot">
+		<div class="footer">
+			<p>© &nbsp;酒仙网&nbsp; 2011 jiuxian.com All &nbsp;Rights Reserved&nbsp;&nbsp;<a target="_blank" href="#" class="redhover">京ICP证110141号</a>&nbsp;&nbsp;京公网安备1101050188221</p>
+			<p class="red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+		</div>
+	</div>
+	<!--登录底部-->
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/yanzheng.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/denglu.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/id.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$(".denglutitle span").click(function() {
+				$(this).addClass("red")
+					.siblings().removeClass("red");
+				$(".denglum ul").eq($(this).index()).removeClass("none")
+					.siblings().addClass("none")
+			})
+		}) //此处为点击切换手机用户和密码登录，ul切换
+	</script>
+</body>
+</html>

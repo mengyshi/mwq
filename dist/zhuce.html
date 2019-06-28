@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>酒仙网注册</title>
+		<link rel="stylesheet" href="font_rivfu8xzozo/iconfont.css" />
+		<link rel="stylesheet" href="css/denglu.css" />
+		<link rel="stylesheet" href="css/zhuce.css" />
+		
+	</head>
+	<body>
+		<div class="head">
+			<div class="header">
+				<div class="headerl">
+					<span>
+						<a href="#">
+							<img src="img/logo.jpg" />
+						</a>
+					</span>
+					<span>
+						<a href="#">
+							<img src="img/logo2.jpg" />
+						</a>
+					</span>
+				</div>
+				<div class="headerr">
+					<span>欢迎来到酒仙网</span>
+					<span><a href="denglu.html">请登录</a></span>
+					<span>帮助中心</span>
+				</div>
+			</div>
+		</div>
+		<!--登录头部-->
+		<div class="main">
+			<div class="mainer">
+				<br />
+				<br />
+				<div class="zhuce">
+					<ul>
+						<li>
+							<span>手机号</span>
+							<span>
+								<span class="iconfont icon-gerenzhongxin"></span>
+								<input type="text" id="shouji"/>
+								<span></span>
+							</span>
+						</li>
+						<li>
+							<span>验证码</span>
+							<span>
+								<span class="iconfont icon-shouji"></span>
+								<input id="yanzheng311" type="text" />
+								<span id="yanzheng31">点击获取验证码</span>
+							</span>
+						</li>
+						<li>
+							<span>邮箱</span>
+							<span>
+								<span class="iconfont icon-youxiang"></span>
+								<input type="text" id="youxiang"/>
+								<span></span>
+							</span>
+						</li>
+						
+						<li>
+							<span>性别</span>
+							<span>
+								<span></span>
+								<input type="text" />
+								<span></span>
+							</span>
+						</li>
+						<li>
+							<span>设置密码</span>
+							<span>
+								<span class="iconfont icon-mima"></span>
+								<input type="text" id="mima" />
+								<span></span>
+							</span>
+						</li>
+						
+					</ul>
+					<div class="xieyi">
+						<p>
+							<input type="checkbox" />
+							<span>我已阅读并同意<a href="#">《酒仙网用户注册协议》</a></span>
+						</p>
+						<p>
+							<input type="submit" value="提 &nbsp; 交" id="btn"/>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--登录中间表单-->
+		<div class="foot">
+			<div class="footer">
+				<p>© &nbsp;酒仙网&nbsp; 2011 jiuxian.com All &nbsp;Rights Reserved&nbsp;&nbsp;<a target="_blank" href="#" class="redhover">京ICP证110141号</a>&nbsp;&nbsp;京公网安备1101050188221</p>
+				<p class="red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+			</div>
+		</div>
+		<!--登录底部-->
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/id.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/yanzheng.js" type="text/javascript" charset="utf-8"></script>	
+	<script type="text/javascript">
+		var yanzheng31 = getid("yanzheng31");
+		var yanzheng311 = getid("yanzheng311");
+		var aaa = random()
+		yanzheng31.onclick = function(){
+			yanzheng31.innerHTML = random();
+		}
+		var shouji = getid("shouji");
+		var mima = getid("mima");
+		var btn = getid("btn");
+		btn.onclick = function(){
+			
+			
+			
+			
+			
+			var phone = shouji.value
+			var pass = mima.value
+			$.post("http://47.104.244.134:8080/usersave.do",{
+				username:phone,
+				password:pass,
+				email:"qaz"+phone+"@163.com",
+				sex:"男"
+			}).done(data=>{
+				//console.log(data);
+				alert("注册成功")
+			})
+		}
+	</script>
+	</body>
+</html>

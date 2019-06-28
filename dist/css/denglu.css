@@ -1,0 +1,147 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+li,input{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+
+body,html{
+	height: 100%;
+}
+.none{
+	display: none;
+}
+
+.red{
+	color: red;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.redhover:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+/*所有鼠标经过变为红色字体，并且添加下划线*/
+
+.head{
+	width: 100%;
+	font-size: 12px;
+}
+.header{
+	width: 1200px;height: 88px;
+	margin: auto;
+}
+.headerl span:first-child img{
+	width: 140px;height: 63px;
+	float: left;
+	margin-top: 15px;
+}
+.headerl span:last-child img{
+	width: 117px;height: 63px;
+	float: left;
+	margin-top: 15px;
+}
+.headerr{
+	float: right;
+	margin-top: 45px;
+}
+.headerr>span{
+	padding: 0 5px;
+}
+/*以上头部*/
+.main{
+	width: 100%;
+}
+.mainer{
+	background: url(https://img10.jiuxian.com/bill/2019/0619/161ffc66ae4344538d00238f8c522027.jpg) no-repeat center top;
+	height: 650px;
+	padding: 0 0 50px;
+	position: relative;
+}
+.denglu{
+	width: 350px;height: 405px;
+	background: #fff;
+	position: absolute;
+	top: 100px;left: 850px;
+}
+.denglutitle{
+height: 40px;
+	margin: 14px 0 19px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 21px;
+	border-bottom: 1px solid #ccc;
+}
+.denglutitle span{
+	padding: 0 10px;
+}
+.denglutitle span:hover{
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+.denglum ul{
+	
+	margin: 0 auto;
+}
+.denglum ul li{
+	width: 270px;height: 42px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.denglum ul li:last-child input{
+	width: 270px;
+}
+.denglum ul li:nth-child(3) input{
+	width: 100px;
+}
+.denglum ul li input{
+	border: 0;
+	line-height: 42px;
+	font-size: 18px;
+}
+.denglum ul li .iconfont{
+	width: 42px;height: 42px;
+	background: #ccc;
+	display: block;
+	font-size: 22px;
+	line-height: 42px;
+	text-align: center;
+}
+/*基础验证格式*/
+#yanzheng1,#yanzheng21,#yanzheng22{
+	width: 120px;height: 42px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	line-height: 42px;
+}
+.denglum ul:last-child li:nth-child(2) input{
+	width: 100px;
+}
+
+
+.denglu>div:last-of-type span{
+	font-size: 26px;
+	padding: 0 7px;
+}
+.denglu>div:last-of-type span:first-child{
+	font-size: 16px;
+}
+/*以下底部样式*/
+.foot{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+.footer{
+	width: 1000px;
+	margin: -35px auto;
+	line-height: 30px;
+	color: #ccc;
+}
+.footer a{color: #ccc;}
+.red{color: #f00;}
+
